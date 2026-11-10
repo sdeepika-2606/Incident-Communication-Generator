@@ -11,7 +11,7 @@ cybersecurity incident-response incident-communication soc-operations python aut
 </p>
 </div>
 
-**RedKross Research Foundation — Internship Task**
+
 
 # Incident Communication Generator
 
