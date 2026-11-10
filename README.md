@@ -1,4 +1,14 @@
+# Incident Communications Generator 
+An automated Python-based cybersecurity tool that transforms structured incident data into clear, audience-specific communication reports for technical responders, management, and staff. It includes JSON validation, automated Markdown generation, and output verification to support accurate and consistent incident communication.
 
+<img src="Redkross%20Research%20Foundation.png" alt="RedKross Research Foundation Logo" width="300"/>
+
+cybersecurity incident-response incident-communication soc-operations python automation json-schema threat-detection markdown security-tools
+<p>
+  <img src="https://img.shields.io/badge/Domain-Cybersecurity-0A7EA4?style=for-the-badge" alt="Cybersecurity"/>
+  <img src="https://img.shields.io/badge/Focus-Incident%20Response-6C5CE7?style=for-the-badge" alt="Incident Response"/>
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge" alt="Python"/>
+</p>
 # Incident Communication Generator
 
 **Task ID:** 2438 – Incident Communication Generator  
