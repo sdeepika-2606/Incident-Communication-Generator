@@ -1,0 +1,67 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Incident Communication Generator Schema",
+  "type": "object",
+  "required": [
+    "incident_id",
+    "fictional_organisation",
+    "status",
+    "confirmed_facts",
+    "not_yet_confirmed",
+    "audiences",
+    "communication_rules"
+  ],
+  "properties": {
+    "incident_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fictional_organisation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "investigating",
+        "contained",
+        "resolved",
+        "closed"
+      ]
+    },
+    "confirmed_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "not_yet_confirmed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audiences": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "technical responders",
+          "service owner",
+          "staff"
+        ]
+      },
+      "minItems": 1
+    },
+    "communication_rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": false
+}

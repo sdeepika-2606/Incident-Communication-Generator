@@ -1,0 +1,26 @@
+{
+  "incident_id": "RK-INC-TRAIN-204",
+  "fictional_organisation": "Northstar Community Services",
+  "status": "investigating",
+  "confirmed_facts": [
+    "Repeated failed sign-in events were recorded for one account.",
+    "The user denied two unexpected MFA prompts.",
+    "A privilege event has an unclear change-ticket reference."
+  ],
+  "not_yet_confirmed": [
+    "Whether credentials were stolen.",
+    "Whether data was accessed or copied.",
+    "Whether the privilege event was unauthorised."
+  ],
+  "audiences": [
+    "technical responders",
+    "service owner",
+    "staff"
+  ],
+  "communication_rules": [
+    "Separate confirmed facts from hypotheses.",
+    "Do not name a person as responsible without evidence.",
+    "Do not promise a recovery time until validated.",
+    "Include next update time and approved contact route."
+  ]
+}
